@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Dark-Blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    font-size: 28px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.wrapper {
+    display: inline-block;
+    background-color: var(--Dark-Grayish-Blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: fit-content;
+    border-radius: 1rem;
+    padding: 0 4rem 0 4rem;
+}
+
+h1 {
+    color: var(--Neon-Green);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 7%;
+    letter-spacing: 0.5rem;
+}
+p{
+    margin-top: 4%;
+    color: var(--Light-Cyan);
+    margin-bottom: 4%;
+    font-size: 170%;
+}
+img{
+    width: 100%;
+    margin-bottom: 8%;
+}
+button{
+    width: 6%;
+    border-radius: 50%;
+    border: none;
+    transform: translate(0,-40%);
+    
+}
+.greendiv{
+    height: 100%;
+    width: 100%;
+    padding: 25%;
+    background-color: var(--Neon-Green);
+    border-radius: 50%;
+}
+.greendiv img{
+    margin: 0;
+}
+
+
+
